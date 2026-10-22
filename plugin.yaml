@@ -1,0 +1,10 @@
+name: boty
+version: 0.1.0
+description: >-
+  Podgląd pracy botów w pasku statusu Hermes Desktop: wywołania, tokeny, koszt,
+  ostatnia aktywność, wpisy dziennika — razem z limitami providerów modeli.
+author: Paulina + Hermes
+license: MIT
+tags: [bots, usage, cost, monitoring, desktop]
+kind: standalone
+requires_hermes: ">=0.21"

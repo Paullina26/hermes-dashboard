@@ -5,7 +5,7 @@
  * rozbicie na modele i providerów, ostatnią pracę każdego bota oraz limity
  * i salda providerów (żeby nie wchodzić na stronę OpenRouter).
  *
- * Dane: /api/plugins/boty/summary (backend czyta lokalne bazy botów).
+ * Dane: /api/plugins/hermes-dashboard/summary (backend czyta lokalne bazy botów).
  */
 (function () {
   "use strict";
@@ -19,7 +19,7 @@
   const { useState, useEffect, useCallback } = React;
   const h = React.createElement;
 
-  const BASE = "/api/plugins/boty";
+  const BASE = "/api/plugins/hermes-dashboard";
   const SURFACE = "rgba(255,255,255,0.04)";
   const BORDER = "rgba(255,255,255,0.10)";
   const TEXT = "#e5e5e5";
@@ -314,5 +314,5 @@
     );
   }
 
-  registry.register("boty", BotyDashboard);
+  registry.register("hermes-dashboard", BotyDashboard);
 })();

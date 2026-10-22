@@ -2,7 +2,7 @@
  * Boty: element paska statusu Hermes Desktop.
  *
  * Wersja minimalna i odporna: tylko STATUSBAR_AREAS z SDK, React hooks
- * i jsx. Dane pobiera z własnego backendu (/api/plugins/boty/summary)
+ * i jsx. Dane pobiera z własnego backendu (/api/plugins/hermes-dashboard/summary)
  * przez ctx.rest. Pasek: „boty 6/6 · $0.71”. Menu: boty, modele, limity.
  */
 import { STATUSBAR_AREAS } from '@hermes/plugin-sdk'
@@ -211,8 +211,8 @@ const ICON = jsx('svg', {
 })
 
 export default {
-  id: 'boty',
-  name: 'Boty',
+  id: 'hermes-dashboard',
+  name: 'Hermes Dashboard',
   description: 'Praca botów, koszty modeli i limity providerów w pasku statusu.',
   register(ctx) {
     try {
@@ -225,7 +225,7 @@ export default {
       area: STATUSBAR_AREAS.right,
       order: 41,
       data: {
-        id: 'boty',
+        id: 'hermes-dashboard',
         icon: ICON,
         detail: jsx(BarDetail, {}),
         variant: 'menu',

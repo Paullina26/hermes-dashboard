@@ -1,4 +1,4 @@
-"""Backend wtyczki `boty` — montowany pod /api/plugins/boty/.
+"""Backend wtyczki `hermes-dashboard` — montowany pod /api/plugins/hermes-dashboard/.
 
 Czyta wyłącznie lokalne bazy stanu botów (state.db) i ich dziennik.
 Nic nie zapisuje i nic nie wysyła na zewnątrz. Limity i salda providerów

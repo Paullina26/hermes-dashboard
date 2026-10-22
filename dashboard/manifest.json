@@ -1,10 +1,10 @@
 {
-  "name": "boty",
+  "name": "hermes-dashboard",
   "label": "Boty",
   "description": "Praca botów, koszty modeli i providerów, limity oraz salda.",
   "icon": "Bot",
-  "version": "0.2.0",
-  "tab": { "path": "/boty", "position": "after:skills" },
+  "version": "0.3.0",
+  "tab": { "path": "/hermes-dashboard", "position": "after:skills" },
   "entry": "plugin.js",
   "api": "plugin_api.py",
   "has_api": true,

@@ -1,5 +1,5 @@
 name: hermes-dashboard
-version: 0.4.0
+version: 0.4.1
 description: >-
   Podgląd pracy botów w pasku statusu Hermes Desktop: wywołania, tokeny, koszt,
   ostatnia aktywność, wpisy dziennika — razem z limitami providerów modeli.
